@@ -874,7 +874,7 @@ fill:#F4F4FD;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     font-family: "Roboto", sans-serif;
-    fill: #ffffff;
+    color: #ffffff;
     background-color: #4D5AE5;
     font-size: 16px;
     font-weight: 500;
