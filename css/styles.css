@@ -718,6 +718,8 @@ border-radius: 4px;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 .backdrop.is-open{
   opacity: 1;
   visibility:visible;
@@ -736,19 +738,9 @@ border-radius: 4px;
   padding-top: 72px;
   padding-bottom: 24px;
   padding-left: 24px;
-  padding-right: 24px;
-
-
-
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-
-
-
-
-
-
-}
+  padding-right: 24px; 
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);}
 
 .modal-close-btn{
   position: absolute;
@@ -932,3 +924,5 @@ fill:#F4F4FD;
     letter-spacing: 0.04em;
     border: none;
   }
+
+
